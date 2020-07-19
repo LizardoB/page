@@ -187,7 +187,23 @@ ul{
 	margin: 0 15px; 
 }
 
+/* SOCIAL NETWORKS */
+
+.social-networks{
+	text-align: center;
+	margin: 40px 0 50px 0;
+}
+
+.social-networks p{
+	padding: 10px;
+}
+
+.social-links{
+	font-size: 55px;
+}
+
 /* FOOTER */
+
 .footer{
 	background: #696969;
 }
@@ -217,18 +233,7 @@ ul{
 	text-align: center;
 }
 
-.social-networks{
-	text-align: center;
-	margin: 40px 0 50px 0;
-}
 
-.social-networks p{
-	padding: 10px;
-}
-
-.social-links{
-	font-size: 55px;
-}
 
 /* start of desktop styles */
 
@@ -236,7 +241,7 @@ ul{
 /* start of large tablet styles */
 
 
-@media screen and (max-width: 320px) {
+@media only screen and (min-device-width : 1px) and (max-width: 375px) {
 /* start of phone styles */
 
 
@@ -311,7 +316,7 @@ ul{
 
 	.banner1{
 		margin: 18px 0;
-		background: url('img/banner2.jpg') no-repeat fixed center/cover;
+		background: url('img/banner2.jpg');
 		height: 250px;
 	}
 
@@ -334,4 +339,26 @@ ul{
 		margin: 0 15px; 
 	}
 
+	/* SOCIAL LINKS */
+
+	.social-networks{
+		margin: 20px 0 25px 0;
+	}
+
+	.social-links{
+		font-size: 27px;
+	}
+
+	/* FOOTER */
+
+	.footer-content{
+		padding: 25px 0 0 0;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 15px;
+	}
+
+	.footer-content ul{
+		margin-bottom: 25px;
+	}
 }
