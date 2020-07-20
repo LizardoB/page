@@ -158,7 +158,7 @@ ul{
 
 .card img{
 	width: 100%;
-	height: 180px;
+	height: auto;
 }
 
 .card h4{
@@ -851,7 +851,7 @@ ul{
 
 	.news .card img{
 		width: 100%;
-		height: 280px;
+		height: auto;
 	}
 
 }
