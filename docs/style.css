@@ -323,6 +323,8 @@ ul{
 
 	.menu-links.show{
     	transform: translateX(0px);
+    	overflow-y: hidden;
+    	position: fixed;
     } 
 	
 
@@ -491,6 +493,7 @@ ul{
 
 	.menu-links.show{
     	transform: translateX(0px);
+    	position: fixed;
     } 
 
     .menu-links li{
@@ -657,6 +660,7 @@ ul{
 
 	.menu-links.show{
     	transform: translateX(0px);
+    	position: fixed;
     } 
 
     .menu-links li{
